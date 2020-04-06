@@ -90,7 +90,7 @@ namespace Entidades
 
         public static double operator /(Numero n1, Numero n2)
         {
-            double retorno = 0;
+            double retorno = double.MinValue;
            
             if (n2.numero != 0)
             {
