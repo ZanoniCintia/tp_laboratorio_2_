@@ -1,0 +1,10 @@
+C:\Users\Dell-7480T\source\repos\Entidades\Entidades\bin\Debug\Entidades.dll
+C:\Users\Dell-7480T\source\repos\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Dell-7480T\source\repos\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Dell-7480T\source\repos\Entidades\Entidades\obj\Debug\Entidades.dll
+C:\Users\Dell-7480T\source\repos\Entidades\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Dell-7480T\Desktop\tp_laboratorio_2_\TP1-MiCalculadora\Entidades\bin\Debug\Entidades.dll
+C:\Users\Dell-7480T\Desktop\tp_laboratorio_2_\TP1-MiCalculadora\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Dell-7480T\Desktop\tp_laboratorio_2_\TP1-MiCalculadora\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Dell-7480T\Desktop\tp_laboratorio_2_\TP1-MiCalculadora\Entidades\obj\Debug\Entidades.dll
+C:\Users\Dell-7480T\Desktop\tp_laboratorio_2_\TP1-MiCalculadora\Entidades\obj\Debug\Entidades.pdb
