@@ -7,7 +7,14 @@ using System.Threading.Tasks;
 namespace Entidades
 {
     public class Calculadora
-    {
+    {   
+        /// <summary>
+        /// realiza la operacion ingresada entre dos numeros
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         public static double Operar(Numero num1, Numero num2, string operador)
         {
             double retorno = 0;
@@ -33,6 +40,11 @@ namespace Entidades
             return retorno;
         }
 
+        /// <summary>
+        /// Valida que los operadores ingresados sean los correctos 
+        /// </summary>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         private static string ValidarOperador(string operador)
         {
             string signo = "+";

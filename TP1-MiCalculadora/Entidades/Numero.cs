@@ -14,7 +14,9 @@ namespace Entidades
 
         #region Propiedades
 
-      
+        /// <summary>
+        /// Asigna valor al atributo numero, utiliza el metodo ValidarNumero
+        /// </summary>
         public string SetNumero
         {
 
@@ -24,6 +26,11 @@ namespace Entidades
         #endregion
 
         #region Metodos
+        /// <summary>
+        /// Convierte un numero binario en decimal, devuelve un string
+        /// </summary>
+        /// <param name="binario"></param>
+        /// <returns></returns>
         public string BinarioDecimal(string binario)
         {
             string resultado = "Valor invalido";
@@ -37,6 +44,12 @@ namespace Entidades
             return Convert.ToInt32(binario, 2).ToString();
         }
 
+
+        /// <summary>
+        /// Convierte un numero decimal a binario,recibe un double devuelve un string
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns></returns>
         public string DecimalBinario(double numero)
         {
 
@@ -54,39 +67,89 @@ namespace Entidades
 
         }
 
+
+        /// <summary>
+        /// convierte un numero decimal a binario, reutiliza codigo, recibe un string
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns></returns>
         public string DecimalBinario(string numero)
         {
 
             return DecimalBinario(double.Parse(numero));
         }
+
+
+        /// <summary>
+        /// Constructor asigna 0 al atributo numero
+        /// </summary>
         public Numero()
         {
             this.numero = 0;
         }
+
+
+        /// <summary>
+        /// asigna a numero el double ingresado
+        /// </summary>
+        /// <param name="numero"></param>
         public Numero(double numero)
         {
             this.numero = numero;
         }
+
+
+        /// <summary>
+        /// recibe un string lo convierte en double
+        /// </summary>
+        /// <param name="strNumero"></param>
         public Numero(string strNumero)
         {
             Double.TryParse(strNumero,out numero);
         }
 
 
+        /// <summary>
+        /// Operador +, suma dos numeros ingresados
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns></returns>
+
         public static double operator +(Numero n1, Numero n2)
         {
             return (n1.numero + n2.numero);
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns></returns>
         public static double operator -(Numero n1, Numero n2)
         {
             return (n1.numero - n2.numero);
         }
 
+        /// <summary>
+        /// Multiplica los dos numeros ingresados 
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns></returns>
         public static double operator *(Numero n1, Numero n2)
         {
             return (n1.numero * n2.numero);
         }
+
+        /// <summary>
+        /// Divide dos numeros,validando el q el numero divisor no sea 0
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns></returns>
 
         public static double operator /(Numero n1, Numero n2)
         {
@@ -102,7 +165,11 @@ namespace Entidades
         }
 
 
-
+        /// <summary>
+        /// valida que se ingrese un numero, caso contrario retorna 0
+        /// </summary>
+        /// <param name="strNumero"></param>
+        /// <returns></returns>
         private double ValidarNumero(string strNumero)
         {
             double retorno;
