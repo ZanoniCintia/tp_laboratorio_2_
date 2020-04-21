@@ -90,22 +90,22 @@ namespace Entidades
 
 
         /// <summary>
-        /// asigna a numero el double ingresado
+        /// ingresa un numero de tipo 'double' sin validar
         /// </summary>
         /// <param name="numero"></param>
-        public Numero(double numero)
+        public Numero(double numero):this(numero.ToString())
         {
             this.numero = numero;
         }
 
 
         /// <summary>
-        /// recibe un string lo convierte en double
+        ///ingresando un 'string' metodo set valida que sea  correcto
         /// </summary>
         /// <param name="strNumero"></param>
         public Numero(string strNumero)
         {
-            Double.TryParse(strNumero,out numero);
+            SetNumero=strNumero;
         }
 
 
