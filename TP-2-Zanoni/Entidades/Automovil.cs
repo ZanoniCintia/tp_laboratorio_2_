@@ -42,12 +42,16 @@ namespace Entidades
             
         }
 
-        public new string Mostrar()
+        /// <summary>
+        /// retorna un string con los datos del automovil
+        /// </summary>
+        /// <returns></returns>
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("AUTOMOVIL");
-            sb.AppendLine(this.Mostrar());
+            sb.AppendLine(base.Mostrar());
             sb.AppendLine($"TAMAÑO :{this.Tamanio}");
             sb.AppendLine($"TIPO :{this.tipo} ");
             sb.AppendLine("");

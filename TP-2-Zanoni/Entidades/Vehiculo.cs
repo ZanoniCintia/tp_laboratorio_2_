@@ -17,6 +17,12 @@ namespace Entidades
         private string chasis;
         private ConsoleColor color;
 
+        /// <summary>
+        /// Constructor 
+        /// </summary>
+        /// <param name="marca"></param>
+        /// <param name="chasis"></param>
+        /// <param name="color"></param>
         protected Vehiculo(EMarca marca, string chasis, ConsoleColor color)
         {
             this.marca = marca;
@@ -42,6 +48,10 @@ namespace Entidades
             return (string)this;
         }
 
+        /// <summary>
+        /// conversor explicito retorna un string, recibe un vehiculo y muestra sus datos
+        /// </summary>
+        /// <param name="p"></param>
          public static  explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
@@ -74,11 +84,16 @@ namespace Entidades
         {
             return !(v1.chasis == v2.chasis);
         }
-
+        /// <summary>
+        /// Enumerado de marcas 
+        /// </summary>
         public enum EMarca
         {
             Chevrolet, Ford, Renault, Toyota, BMW, Honda
         }
+        /// <summary>
+        /// Enumerado tamaños
+        /// </summary>
         public enum ETamanio
         {
             Chico, Mediano, Grande

@@ -21,3 +21,8 @@ C:\Nueva carpeta\Laboratorio_2_2020\TP-2-Zanoni\Entidades\bin\Debug\Entidades.pd
 C:\Nueva carpeta\Laboratorio_2_2020\TP-2-Zanoni\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
 C:\Nueva carpeta\Laboratorio_2_2020\TP-2-Zanoni\Entidades\obj\Debug\Entidades.dll
 C:\Nueva carpeta\Laboratorio_2_2020\TP-2-Zanoni\Entidades\obj\Debug\Entidades.pdb
+C:\tp2\tp_laboratorio_2_\TP-2-Zanoni\Entidades\bin\Debug\Entidades.dll
+C:\tp2\tp_laboratorio_2_\TP-2-Zanoni\Entidades\bin\Debug\Entidades.pdb
+C:\tp2\tp_laboratorio_2_\TP-2-Zanoni\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\tp2\tp_laboratorio_2_\TP-2-Zanoni\Entidades\obj\Debug\Entidades.dll
+C:\tp2\tp_laboratorio_2_\TP-2-Zanoni\Entidades\obj\Debug\Entidades.pdb

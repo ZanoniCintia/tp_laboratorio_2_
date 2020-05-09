@@ -13,16 +13,29 @@ namespace Entidades
     {
         List<Vehiculo> vehiculos;
         int espacioDisponible;
+
+        /// <summary>
+        /// Enumerado de tipo de vehiculos
+        /// </summary>
         public enum ETipo
         {
             Moto, Automovil, Camioneta, Todos
         }
 
         #region "Constructores"
+
+        /// <summary>
+        /// constructor privado instancia lista
+        /// </summary>
         private Estacionamiento()
         {
             this.vehiculos = new List<Vehiculo>();
         }
+
+        /// <summary>
+        /// constructor publico , inicializa espacios e invoca constructor de instancia
+        /// </summary>
+        /// <param name="espacioDisponible"></param>
         public Estacionamiento(int espacioDisponible):this()
         {
             this.espacioDisponible = espacioDisponible;

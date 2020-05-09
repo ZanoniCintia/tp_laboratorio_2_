@@ -8,6 +8,12 @@ namespace Entidades
 {
     public class Camioneta:Vehiculo
     {
+        /// <summary>
+        /// constructor publico invoca constructor de la clase base
+        /// </summary>
+        /// <param name="marca"></param>
+        /// <param name="codigo"></param>
+        /// <param name="color"></param>
         public Camioneta(EMarca marca, string codigo, ConsoleColor color)
             : base(marca,codigo, color)
         {
@@ -23,7 +29,11 @@ namespace Entidades
             }
         }
 
-        public new string Mostrar()
+        /// <summary>
+        /// retorna un string con los datos de la camioneta
+        /// </summary>
+        /// <returns></returns>
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 

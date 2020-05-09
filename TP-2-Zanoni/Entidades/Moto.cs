@@ -7,7 +7,13 @@ using System.Threading.Tasks;
 namespace Entidades
 {
     public class Moto : Vehiculo
-    {
+    {   
+        /// <summary>
+        /// constructor , reutiliza el de la clase base
+        /// </summary>
+        /// <param name="marca"></param>
+        /// <param name="codigo"></param>
+        /// <param name="color"></param>
         public Moto(EMarca marca, string codigo, ConsoleColor color)
             :base(marca,codigo,color)
         {
@@ -25,7 +31,11 @@ namespace Entidades
             }
         }
 
-        public new string Mostrar()
+        /// <summary>
+        /// retorna un string con los datos de la moto
+        /// </summary>
+        /// <returns></returns>
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
