@@ -143,7 +143,7 @@ namespace Entidades
                 {
                     if (vehiculoAux == p)
                     {
-                        c.vehiculos.Remove(p);
+                        c.vehiculos.Remove(vehiculoAux);
                         break;
                     }
                 }
