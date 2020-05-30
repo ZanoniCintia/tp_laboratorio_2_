@@ -1,0 +1,58 @@
+CLASE DE: Programacion POR NOMBRE COMPLETO: Juarez, Roberto
+
+NACIONALIDAD: Argentino 
+
+Legajo : 2
+CLASES DEL DIA: 
+SPD
+Programacion
+
+ALUMNOS: 
+NOMBRE COMPLETO: Lopez, Juan
+
+NACIONALIDAD: Argentino 
+Clases que toma :Programacion
+Estado de cuenta : Becado
+
+NOMBRE COMPLETO: Gonzalez, Carlos
+
+NACIONALIDAD: Argentino 
+Clases que toma :Programacion
+Estado de cuenta : AlDia
+
+NOMBRE COMPLETO: Perez, Juan
+
+NACIONALIDAD: Argentino 
+Clases que toma :Laboratorio
+Estado de cuenta : Deudor
+
+
+CLASE DE: Programacion POR NOMBRE COMPLETO: Juarez, Roberto
+
+NACIONALIDAD: Argentino 
+
+Legajo : 2
+CLASES DEL DIA: 
+Programacion
+Legislacion
+
+ALUMNOS: 
+NOMBRE COMPLETO: Lopez, Juan
+
+NACIONALIDAD: Argentino 
+Clases que toma :Programacion
+Estado de cuenta : Becado
+
+NOMBRE COMPLETO: Gonzalez, Carlos
+
+NACIONALIDAD: Argentino 
+Clases que toma :Programacion
+Estado de cuenta : AlDia
+
+NOMBRE COMPLETO: Perez, Juan
+
+NACIONALIDAD: Argentino 
+Clases que toma :Laboratorio
+Estado de cuenta : Deudor
+
+
