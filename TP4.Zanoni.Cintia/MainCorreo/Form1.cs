@@ -21,11 +21,7 @@ namespace MainCorreo
             maskedTextBox1.TextMaskFormat = MaskFormat.IncludeLiterals;
         }
 
-        private void lblEntregado_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Paquete paquete = new Paquete(txtDireccion.Text, maskedTextBox1.Text);
@@ -87,12 +83,7 @@ namespace MainCorreo
         }
 
 
-        /// <summary>
-        /// Muestra los datos de un paquete
-        /// lo guarda en un archivo
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="elemento"></param>
+ 
         private void MostrarInformacion<T>(IMostrar<T> elemento)
         {
             string datos = "";

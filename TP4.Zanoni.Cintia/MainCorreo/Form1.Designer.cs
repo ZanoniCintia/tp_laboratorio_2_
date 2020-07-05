@@ -77,7 +77,7 @@
             this.lblEntregado.Size = new System.Drawing.Size(111, 25);
             this.lblEntregado.TabIndex = 3;
             this.lblEntregado.Text = "Entregado";
-            this.lblEntregado.Click += new System.EventHandler(this.lblEntregado_Click);
+//            this.lblEntregado.Click += new System.EventHandler(this.lblEntregado_Click);
             // 
             // lblDireccion
             // 
