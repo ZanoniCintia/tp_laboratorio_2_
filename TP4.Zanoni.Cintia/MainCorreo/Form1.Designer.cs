@@ -38,18 +38,17 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.groupBoxEstado = new System.Windows.Forms.GroupBox();
             this.lstEstadoEntregado = new System.Windows.Forms.ListBox();
+            this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lstEstadoEnViaje = new System.Windows.Forms.ListBox();
             this.lstEstadoIngresado = new System.Windows.Forms.ListBox();
             this.groupBoxPaquete = new System.Windows.Forms.GroupBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.rtbMostrar = new System.Windows.Forms.RichTextBox();
-            this.cmsListas = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBoxEstado.SuspendLayout();
-            this.groupBoxPaquete.SuspendLayout();
             this.cmsListas.SuspendLayout();
+            this.groupBoxPaquete.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblIngresado
@@ -143,6 +142,21 @@
             this.lstEstadoEntregado.Size = new System.Drawing.Size(364, 229);
             this.lstEstadoEntregado.TabIndex = 6;
             // 
+            // cmsListas
+            // 
+            this.cmsListas.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
+            this.cmsListas.Name = "contextMenuStrip1";
+            this.cmsListas.Size = new System.Drawing.Size(173, 42);
+            // 
+            // mostrarToolStripMenuItem
+            // 
+            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(172, 38);
+            this.mostrarToolStripMenuItem.Text = "Mostrar";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
+            // 
             // lstEstadoEnViaje
             // 
             this.lstEstadoEnViaje.FormattingEnabled = true;
@@ -200,21 +214,6 @@
             this.rtbMostrar.TabIndex = 11;
             this.rtbMostrar.Text = "";
             // 
-            // cmsListas
-            // 
-            this.cmsListas.ImageScalingSize = new System.Drawing.Size(32, 32);
-            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mostrarToolStripMenuItem});
-            this.cmsListas.Name = "contextMenuStrip1";
-            this.cmsListas.Size = new System.Drawing.Size(173, 42);
-            // 
-            // mostrarToolStripMenuItem
-            // 
-            this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
-            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(172, 38);
-            this.mostrarToolStripMenuItem.Text = "Mostrar";
-            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
-            // 
             // FormCorreo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -228,9 +227,9 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCorreo_FormClosing);
             this.groupBoxEstado.ResumeLayout(false);
             this.groupBoxEstado.PerformLayout();
+            this.cmsListas.ResumeLayout(false);
             this.groupBoxPaquete.ResumeLayout(false);
             this.groupBoxPaquete.PerformLayout();
-            this.cmsListas.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -253,7 +252,6 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.RichTextBox rtbMostrar;
         private System.Windows.Forms.ContextMenuStrip cmsListas;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }
